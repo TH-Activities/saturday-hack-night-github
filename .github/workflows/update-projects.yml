@@ -17,7 +17,7 @@ jobs:
          run: |
             git config user.name tinkerhub-bot
             git config user.email bot@tinkerhub.org
-            git pull --recurse-submodules --force
+            git submodule update --remote --checkout --no-fetch --force
        - name: Commit changes
          run: |
             git add --all || true
