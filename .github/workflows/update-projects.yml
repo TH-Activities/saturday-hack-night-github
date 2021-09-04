@@ -13,11 +13,12 @@ jobs:
          uses: actions/checkout@v2
          with:
             submodules: "true"
+            force: "true"
        - name: Pull the latest changes
          run: |
             git config user.name tinkerhub-bot
             git config user.email bot@tinkerhub.org
-            git submodule update --remote --checkout --no-fetch --force
+            git submodule update --remote || true
        - name: Commit changes
          run: |
             git add --all || true
