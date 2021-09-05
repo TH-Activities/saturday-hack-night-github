@@ -1,14 +1,14 @@
 # Saturday Hack Night Template
 
-###What is Saturday Hack Night?
+## What is Saturday Hack Night?
 Saturday Hack Night is not just your regular hackathon. Here, we will be building solutions / applications via API integration.
 * The needed resource, the respective API and documentation will be shared with you once you register. And remember this is a one time registration! If you have registered once, you need not have to repeat it again for the next.
 * API for this week is GitHub API.
 
-###GitHub API
+## GitHub API
 Github APIs( or Github ReST APIs) are the APIs that you can use to interact with GitHub. They allow you to create and manage repositories, branches, issues, pull requests, and many more. For fetching publicly available information (like public repositories, user profiles, etc.), you can call the API. For other actions, you need to provide an authenticated token.
 Here are some cool ideas as sample.You can either modify these problem statements in your own way or else you can come up with your own brainstorming super cool ideas.
--Follow my Tree : Ready to create a tree of your followers and then show the followers of your followers and again their followers? Have you though of a final destination or an infinite road that connects like "Followers of  my followers"? Be sharp and ready to shoot it out!!.
+- Follow my Tree : Ready to create a tree of your followers and then show the followers of your followers and again their followers? Have you though of a final destination or an infinite road that connects like "Followers of  my followers"? Be sharp and ready to shoot it out!!.
 - CV Maker : What about creating a CV when you have a awesome profile?
 
 TinkerHub saturday hack night submission repository template. 
