@@ -2,7 +2,7 @@ name: Update Projects
 on:
   schedule:
     # Runs every hour
-    - cron: '0 * * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
 jobs:
   version-bump:
